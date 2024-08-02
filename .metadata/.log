@@ -1,0 +1,773 @@
+!SESSION 2024-07-31 18:23:15.744 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\Embeded-C\Instructor\tt
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-31 18:23:21.731
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-31 18:23:21.738
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-31 18:23:25.044
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 18:23:59.485
+!MESSAGE Indexed 'stm32f4xx2_drivers' (10 sources, 66 headers) in 1.35 sec: 3,085 declarations; 6,785 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.02%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:24:03.464
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:24:03.464
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:24:03.464
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:24:03.464
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-07-31 18:24:10.204
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-07-31 18:24:10.206
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-07-31 18:24:10.206
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:24:15.554
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:24:15.554
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:24:15.554
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:24:15.555
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:25:09.200
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:25:09.200
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:25:09.200
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:25:09.200
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 18:25:37.265
+!MESSAGE Indexed 'stm32f4xx2_drivers' (10 sources, 66 headers) in 0.48 sec: 3,109 declarations; 6,890 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.02%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:26:21.402
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:26:21.402
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:26:21.402
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:26:21.402
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:26:45.380
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:26:45.380
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:26:45.380
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:26:45.380
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:29:13.225
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:29:13.225
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:29:13.225
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:29:13.226
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 18:29:24.511
+!MESSAGE Indexed 'stm32f4xx2_drivers' (7 sources, 37 headers) in 0.225 sec: 1,991 declarations; 5,278 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-07-31 18:45:43.162 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\Embeded-C\Instructor\tt
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-31 18:45:47.888
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-31 18:45:47.888
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-31 18:45:52.723
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-07-31 18:48:48.957
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-07-31 18:48:48.957
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-07-31 18:48:48.957
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:48:50.328
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:48:50.328
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:48:50.328
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:48:50.328
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:48:53.547
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:48:53.547
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:48:53.547
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:48:53.548
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:49:53.499
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:49:53.499
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:49:53.499
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:49:53.501
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-31 18:51:33.229
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-31 18:51:33.229
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-31 18:51:33.229
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-31 18:51:33.230
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 18:52:12.037
+!MESSAGE Indexed 'stm32f4xx2_drivers' (7 sources, 37 headers) in 0.539 sec: 1,991 declarations; 5,278 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-08-01 23:22:12.928 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-01 23:22:21.974
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-01 23:22:21.987
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-01 23:22:26.876
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-08-01 23:22:35.938
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-08-01 23:22:35.939
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-08-01 23:22:35.939
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-08-01 23:41:58.886 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\Embeded-C\Instructor\tt
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-01 23:42:19.510
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-01 23:42:19.522
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-01 23:42:28.026
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-08-01 23:42:28.642
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-08-01 23:42:28.643
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-08-01 23:42:28.643
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-08-01 23:46:58.963 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\Embeded-C\Instructor\tt
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-01 23:47:04.451
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-01 23:47:04.453
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-01 23:47:10.186
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-08-01 23:47:16.908
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-08-01 23:47:16.912
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-08-01 23:47:16.912
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:47:32.822
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:47:32.822
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:47:32.822
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:47:32.823
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-01 23:50:25.903
+!MESSAGE Indexed 'stm32f4xx2_drivers' (7 sources, 37 headers) in 1 sec: 1,991 declarations; 5,278 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:50:53.673
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:50:53.673
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:50:53.673
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:50:53.674
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:51:39.278
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:51:39.279
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:51:39.279
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:51:39.279
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:51:56.263
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:51:56.263
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:51:56.263
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:51:56.263
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:52:02.290
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:52:02.290
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:52:02.290
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:52:02.290
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:52:07.543
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:52:07.543
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:52:07.543
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:52:07.543
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-01 23:53:01.980
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-01 23:53:01.980
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-01 23:53:01.980
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-01 23:53:01.981
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:13.129
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:13.129
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:13.129
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:13.130
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:16.994
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:16.994
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:16.994
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:16.994
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:19.930
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:19.930
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:19.930
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:19.931
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:24.889
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:24.889
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:24.889
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:24.889
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:29.178
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:29.178
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:29.178
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:29.179
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:32.851
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:32.851
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:32.851
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:32.851
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:36.092
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:36.092
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:36.092
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:36.092
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:40.069
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:40.069
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:40.069
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:40.070
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:43.812
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:43.812
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:43.812
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:43.812
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:49.790
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:49.791
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:49.791
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:49.792
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:53.220
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:53.220
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:53.220
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:53.221
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:00:58.146
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:00:58.146
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:00:58.146
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:00:58.146
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:01:01.718
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:01:01.718
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:01:01.718
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:01:01.719
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:01:06.061
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:01:06.061
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:01:06.061
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:01:06.061
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:01:09.551
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:01:09.551
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:01:09.551
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:01:09.551
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:01:13.042
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:01:13.042
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:01:13.042
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:01:13.042
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 00:01:24.841
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 00:01:24.841
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 00:01:24.841
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 00:01:24.841
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 01:09:41.561
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 01:09:41.561
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 01:09:41.561
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 01:09:41.562
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 01:09:49.251
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 01:09:49.251
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 01:09:49.251
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 01:09:49.251
+!MESSAGE Project is null
+!SESSION 2024-08-02 01:15:54.996 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\Embeded-C\Instructor\tt
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-02 01:16:00.528
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-02 01:16:00.529
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-02 01:16:06.310
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-08-02 10:00:10.962 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-02 10:00:52.696
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-02 10:00:52.703
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-02 10:00:59.927
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 10:27:45.720
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 10:27:45.720
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 10:27:45.720
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 10:27:45.721
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 10:27:58.994
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 10:27:58.995
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 10:27:58.995
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 10:27:58.998
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 10:58:00.848
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 10:58:00.848
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 10:58:00.848
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 10:58:00.848
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 11:01:38.503
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 11:01:38.504
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 11:01:38.504
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 11:01:38.504
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-08-02 11:06:45.855
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-08-02 11:06:45.857
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-08-02 11:06:45.857
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-08-02 13:10:25.590 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-02 13:10:48.040
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-02 13:10:48.047
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-02 13:10:53.104
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-08-02 13:11:17.885
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-08-02 13:11:17.886
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-08-02 13:11:17.886
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-02 13:16:25.574
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-02 13:16:25.574
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-02 13:16:25.574
+!MESSAGE E:\Embeded-C\Instructor\tt\stm32f4xx2_drivers overlaps the location of another project: 'stm32f4xx2_drivers'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-08-02 13:16:25.574
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-02 13:16:34.451
+!MESSAGE Indexed 'stm32f4xx_drivers' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-08-02 13:26:31.523 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-02 13:26:39.633
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-02 13:26:39.634
+!MESSAGE Log4j2 initialized with config file E:\Embeded-C\Instructor\tt\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-02 13:26:43.962
+!MESSAGE Started RMI Server, listening on port 41337

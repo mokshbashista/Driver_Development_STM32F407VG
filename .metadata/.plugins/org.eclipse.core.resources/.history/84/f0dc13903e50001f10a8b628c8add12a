@@ -1,0 +1,21 @@
+/*
+ * lcd.h
+ *
+ *  Created on: Aug 2, 2024
+ *      Author: moksh
+ */
+
+#include "stm32f407xx.h"
+#ifndef LCD_H_
+#define LCD_H_
+
+
+//apis
+void lcd_init(void);
+
+//Application configurable items
+#define LCD_GPIO_PORT GPIOD
+
+
+
+#endif /* LCD_H_ */

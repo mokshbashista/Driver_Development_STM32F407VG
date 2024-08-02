@@ -1,0 +1,8 @@
+../src/017rtc_lcd.c:10:13:mdelay	24	static
+../src/017rtc_lcd.c:16:6:init_systick_timer	32	static
+../src/017rtc_lcd.c:43:7:get_day_of_week	56	static
+../src/017rtc_lcd.c:51:6:number_to_string	16	static
+../src/017rtc_lcd.c:67:7:time_to_string	16	static
+../src/017rtc_lcd.c:85:7:date_to_string	16	static
+../src/017rtc_lcd.c:104:5:main	24	static
+../src/017rtc_lcd.c:179:6:SysTick_Handler	24	static
