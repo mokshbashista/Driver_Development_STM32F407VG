@@ -179,7 +179,7 @@ typedef struct
  */
 typedef struct
 {
-	__vo uint32_t IMR;    /*!< Give a short description,          	  	    Address offset: 0x00 */
+	__vo uint32_t IMR;    /*!< ,          	  	    Address offset: 0x00 */
 	__vo uint32_t EMR;    /*!< ,                						Address offset: 0x04 */
 	__vo uint32_t RTSR;   /*!< ,  									     Address offset: 0x08 */
 	__vo uint32_t FTSR;   /*!< , 										Address offset: 0x0C */
