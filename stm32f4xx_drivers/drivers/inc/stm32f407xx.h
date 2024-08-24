@@ -211,7 +211,7 @@ typedef struct
  */
 typedef struct
 {
-	__vo uint32_t MEMRMP;       /*!< Give a short description,                    Address offset: 0x00      */
+	__vo uint32_t MEMRMP;       /*!<                   Address offset: 0x00      */
 	__vo uint32_t PMC;          /*!< ,     									  Address offset: 0x04      */
 	__vo uint32_t EXTICR[4];    /*!<  , 									  Address offset: 0x08-0x14 */
 	uint32_t      RESERVED1[2];  /*!<           							  Reserved, 0x18-0x1C    	*/
